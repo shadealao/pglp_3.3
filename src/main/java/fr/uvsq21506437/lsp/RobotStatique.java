@@ -1,9 +1,9 @@
 package fr.uvsq21506437.lsp;
 
-public class RobotStatique extends Robot{
+public class RobotStatique {
 	private int position;
 	public RobotStatique(int position) {
-		super(position);
+		this.position = position;
 	}
 
 	public void avance() {
